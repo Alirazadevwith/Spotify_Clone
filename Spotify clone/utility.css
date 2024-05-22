@@ -1,0 +1,60 @@
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+.flex{
+    display: flex;
+}
+.justify-content{
+    justify-content: center;
+}
+.item-center{
+    align-items: center;
+}
+.invert{
+    filter: invert(1);
+}
+.rounded{
+    border-radius: 7px;
+}
+.m-1{
+    margin: 5px;
+}
+.p-1{
+    padding: 10px;
+}
+
+
+
+
+
+
+/* For Webkit based browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #555; /* Color of the thumb */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* For Firefox */
+::-moz-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+}
+
+::-moz-scrollbar-thumb {
+    background-color: #555; /* Color of the thumb */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* For Edge and IE */
+::-ms-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+}
+
+::-ms-scrollbar-thumb {
+    background-color: #555; /* Color of the thumb */
+    border-radius: 5px; /* Rounded corners */
+}
